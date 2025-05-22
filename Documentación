@@ -1,0 +1,53 @@
+### 1. Estudiante
+¿Por qué la incluimos?
+
+- Es quien recibe la educación
+- Necesitamos guardar sus datos básicos
+- Debemos saber qué cursos toma
+Datos importantes:
+
+- ID del estudiante
+- Nombre completo
+- Fecha de nacimiento
+- Correo para contacto
+- Numero telefonico para contacto
+- Cedula del estudiante
+### 2. Curso
+¿Por qué la incluimos?
+
+- Es la unidad básica de enseñanza
+- Organiza el contenido académico
+- Permite controlar los créditos
+Datos importantes:
+
+- ID del curso
+- Nombre
+- Créditos que vale
+- En qué semestre va
+- El cupo maximo de estudiantes
+### 3. Profesor
+¿Por qué la incluimos?
+
+- Da las clases
+- Es responsable del curso
+- Necesitamos sus datos de contacto
+Datos importantes:
+
+- ID del profesor
+- Nombre completo
+- Correo para contacto
+- Numero telefonico para contacto
+- Cedula del profesor
+## Cómo Se Relacionan
+### Estudiante con Curso
+¿Por qué así?
+
+- Un estudiante toma varios cursos para graduarse
+- Un curso necesita varios estudiantes para funcionar
+- Guardamos fecha de inscripción y notas
+### Profesor con Curso
+¿Por qué así?
+
+- Un profesor puede dar varios cursos
+- Un curso puede necesitar varios profesores
+- Guardamos el período en que se da la clase
